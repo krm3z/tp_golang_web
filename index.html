@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Créer ta carte d'identité</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>🪪 Générateur de carte d'identité</h1>
+
+    <form action="/idcard" method="POST">
+      <label>Nom</label>
+      <input type="text" name="Name" placeholder="Ton nom" required>
+
+      <label>Âge</label>
+      <input type="text" name="Age" placeholder="Ton âge" required>
+
+      <label>Phrase préférée</label>
+      <input type="text" name="Quote" placeholder="Ta citation préférée">
+
+      <label>Hobby</label>
+      <input type="text" name="Hobby" placeholder="Ton passe-temps">
+
+      <button type="submit">Créer ma carte</button>
+      <script src="/static/script.js"></script>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ta carte d'identité</title>
+  <link rel="stylesheet" href="/static/idCard.css">
+</head>
+<body>
+  <div class="card">
+    <h2>Carte d'identité étudiante</h2>
+    <div class="infos">
+      <p><strong>Nom :</strong> {{.Name}}</p>
+      <p><strong>Âge :</strong> {{.Age}} ans</p>
+      <p><strong>Phrase préférée :</strong> "{{.Quote}}"</p>
+      <p><strong>Hobby :</strong> {{.Hobby}}</p>
+    </div>
+    <a href="/" class="back">↩ Retour</a>
+  </div>
+</body>
+</html>
